@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Created by xiongsc on 2017/12/19.
@@ -14,6 +15,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data
+@Table(name = "languages")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Language {

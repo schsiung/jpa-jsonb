@@ -8,9 +8,9 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 /**
  * Created by xiongsc on 2017/12/19.
  */
-@RepositoryRestResource(collectionResourceRel = "languages", path = "languages")
+@RepositoryRestResource(path = "language")
 public interface LanguageRepository extends JpaRepository<Language,Long> {
 
-    List<Language> findByLanguageid(@Param("languageid") String languageid);
+    List<Language> findByLanguageid(@Param("languageid") Long languageid);
 
 }
