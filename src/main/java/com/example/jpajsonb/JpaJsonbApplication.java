@@ -16,7 +16,7 @@ import java.util.Map;
 @Slf4j
 public class JpaJsonbApplication {
 
-//	@Bean
+	//@Bean
 	CommandLineRunner saveAndReadJsonb(PersonRepository personRepository){
 		return e -> {
 			Person p = new Person();

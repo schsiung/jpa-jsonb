@@ -1,4 +1,4 @@
-在我们项目中经常会遇到数据结构不定的情况，这时普通的关系型数据库不能满足我们的要求。Postgres为我们提供了`jsonb`数据类型，我们可在此类型的字段存储`json`数据，并可对此数据进行查询。本例将结合`hibernate`,`Spring Data JPA`,`Spring Boot`来实现。
+********在我们项目中经常会遇到数据结构不定的情况，这时普通的关系型数据库不能满足我们的要求。Postgres为我们提供了`jsonb`数据类型，我们可在此类型的字段存储`json`数据，并可对此数据进行查询。本例将结合`hibernate`,`Spring Data JPA`,`Spring Boot`来实现。
 ### 1. 自定义方言
 
 ```java

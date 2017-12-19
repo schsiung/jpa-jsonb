@@ -48,6 +48,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mopano/hibernate-json-contributor
+		<dependency>
+			<groupId>com.mopano</groupId>
+			<artifactId>hibernate-json-contributor</artifactId>
+			<version>1.0</version>
+		</dependency> -->
 
 	</dependencies>
 

@@ -10,7 +10,7 @@ spring:
 
   datasource:
     platform: postgres
-    url: jdbc:postgresql://192.168.1.141:5432/infrastructure
-    username: hfcb
-    password: hfcb
+    url: jdbc:postgresql://localhost:5433/rodb
+    username: postgres
+    password: abc123
     driver-class-name: org.postgresql.Driver
