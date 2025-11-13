@@ -10,7 +10,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-    database-platform: com.example.jpajsonb.support.JsonbPostgresDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 
   datasource:
